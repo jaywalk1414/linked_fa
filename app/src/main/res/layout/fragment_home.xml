@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="58dp"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:background="@drawable/item_back"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:padding="10dp"
+                android:src="@drawable/tv1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      تلویزیون 75 اینچ ‌‌4k"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•صفحه نمایش ‌‌NanoCell
+
+تلویزیون ‌‌LG با فناوری ®‌Al ThinQ
+
+پردازنده هوشمند alpla 7 ‌‌LG "
+                android:textColor="@color/light_black"
+                android:layout_marginEnd="15dp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/item_back"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:padding="10dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/phone1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          LMG9110EMW
+LG Velvet"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:padding="5dp"
+                android:text="•طراحی مینیمال و ارگونومیک با لبه های فلزی
+
+•صفحه نمایش اولد FullVision 6.8
+
+            "
+                android:textColor="@color/light_black" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:background="@drawable/item_back"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:padding="10dp"
+                android:src="@drawable/tv2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      تلویزیون 75 اینچ ‌‌4k"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•صفحه نمایش صفحه نمایش IPS
+
+‌•فناوری AMD FreeSync
+
+•پشتیبانی از HDCP  2.2
+ "
+                android:textColor="@color/light_black"
+                android:layout_marginEnd="15dp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/item_back"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:padding="10dp"
+                android:src="@drawable/tv3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    تلویزیون 77 اینچ "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:padding="5dp"
+                android:text="•طراحی مینیمال و ارگونومیک با لبه های فلزیتصویر روی دیوار
+
+• مشکی مطلق -رنگ های تمام عیار - کنتراست بی نهایت
+
+•زاویه دید کامل
+"
+                android:textColor="@color/light_black" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
